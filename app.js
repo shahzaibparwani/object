@@ -60,3 +60,36 @@
 // var student4 = new Student("saad", "khalid", 10, "A");
 // var student5 = new Student("hamza", "imran", 10, "A");
 // console.log(student1, student2, student3, student4, student5);
+
+//Q4
+
+// function Area(name, gender, address, education, profession) {
+//     this.name = name;
+//     this.gender = gender;
+//     this.address = address;
+//     this.education = education;
+//     this.profession = profession;
+// }
+
+// function myfun() {
+//     var personName = document.getElementById("name").value;
+//     var address = document.getElementById("address").value;
+//     var education = document.getElementById("education").value;
+//     var profession = document.getElementById("profession").value;
+
+//     if ((personName.length && address.length && education.length && profession.length) == 0) {
+//         console.log("Please fill all the field correctly");
+//     } else {
+//         var gender1 = document.getElementById("male");
+//         var gender2 = document.getElementById("female");
+
+//         if (gender1.checked) {
+//             var a = "male";
+//         } else if (gender2.checked) {
+//             var a = "female";
+//         }
+
+//         const myArea = new Area(personName, a, address, education, profession);
+//         console.log(myArea);
+//     }
+// }
